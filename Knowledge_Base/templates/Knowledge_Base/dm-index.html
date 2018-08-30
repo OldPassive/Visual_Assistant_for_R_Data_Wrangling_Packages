@@ -1,0 +1,123 @@
+{% extends 'Knowledge_Base/base.html' %}
+{% load static %}
+{% block css %}
+<link rel="stylesheet" href="{% static 'Knowledge_Base/index_assets/vendor/dzsparallaxer/dzsparallaxer.css' %}">
+<link rel="stylesheet" href="{% static 'Knowledge_Base/custom-dw-index.css' %}"/>
+{% endblock %}
+{% block title %}Data Manipulation{% endblock %}
+
+{% block content %}
+<div class="dzsparallaxer auto-init height-is-based-on-content use-loading mode-scroll"
+     data-options='{direction: "normal"}'>
+    <div class="divimage dzsparallaxer--target gradient-overlay-half-dark-v2" style="height: 120%;
+    background-image: url({% static 'Knowledge_Base/images/DM_Background.jpg' %});"></div>
+
+    <div class="d-flex align-items-center height-600 position-relative z-index-2">
+        <div class="w-lg-60 text-center mx-lg-auto mb-9">
+            <div class="mb-7">
+                <h1 class="display-2 font-size-48--md-down text-white mb-4">Data Manipulation</h1>
+                <h2 class="text-white">
+                    Changing the variables, values, and units of analysis contained in the data set.
+                </h2>
+            </div>
+            <h2 class="text-white">with</h2>
+            <h2 class="text-white">dplyr</h2>
+      </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-9 col-md-9 col-lg-9 col-xl-9">
+            <div class="row" style="padding-top:30px">
+                <div class="col-12 col-md-4 col-lg-4 col-xl-4 text-center">
+                    <a href="{% url 'kb:dm_content' 1 %}" class="nav-card">
+                        <div class="card bg-primary" style="height: 170px;">
+                            <h3 style="margin-top: 18%;">Conventions</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 col-xl-4 text-center">
+                    <a href="{% url 'kb:dm_content' 29 %}" class="nav-card">
+                        <div class="card" style="height: 170px; background: #51A8DD">
+                            <h3 style="margin-top: 18%;">View</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 col-xl-4 text-center">
+                    <a href="{% url 'kb:dm_content' 30 %}" class="nav-card">
+                        <div class="card" style="height: 170px; background: #7DB9DE">
+                            <h3 style="margin-top: 18%;">Group Observation</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="row" style="padding-top: 15px;">
+                <div class="col-12 col-md-4 col-lg-4 col-xl-4 text-center">
+                    <a href="{% url 'kb:dm_content' 37 %}" class="nav-card">
+                        <div class="card" style="height: 170px; background: #81C7D4;">
+                            <h3 style="margin-top: 18%;">Subset Variables (Columns)</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 col-xl-4 text-center">
+                    <a href="{% url 'kb:dm_content' 45 %}" class="nav-card">
+                        <div class="card bg-info" style="height: 170px;">
+                            <h3 style="margin-top: 18%;">Subset Observations (Rows)</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 col-xl-4 text-center">
+                    <a href="{% url 'kb:dm_content' 54 %}" class="nav-card">
+                        <div class="card" style="height: 170px; background: #0D5661">
+                            <h3 style="margin-top: 18%;">Derive Variables</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="row" style="padding-bottom: 30px; padding-top: 15px;">
+                <div class="col-12 col-md-4 col-lg-4 col-xl-4 text-center">
+                    <a href="{% url 'kb:dm_content' 62 %}" class="nav-card">
+                        <div class="card" style="height: 170px; background: #0F2540">
+                            <h3 style="margin-top: 18%;">Window Functions</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 col-xl-4 text-center">
+                    <a href="{% url 'kb:dm_content' 76 %}" class="nav-card">
+                        <div class="card" style="height: 170px; background: #0B346E">
+                            <h3 style="margin-top: 18%;">Summarise Observation</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 col-xl-4 text-center">
+                    <a href="{% url 'kb:dm_content' 84 %}" class="nav-card">
+                        <div class="card" style="height: 170px; background: #2B5F75">
+                            <h3 style="margin-top: 18%;">Aggregation Functions</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex align-items-start col-3 col-md-3 col-lg-3 col-xl-3"
+             style="padding-bottom: 30px; padding-top: 30px">
+            <div class="card border-0">
+                <div class="card-body border border-bottom-0 rounded-top text-center p-5">
+                    <h4 class="h5 mb-1">dplyr</h4>
+                    <p class="mb-0">Not familiar with the package?</p>
+                    <p class="mb-0">Would like to know more?</p>
+                </div>
+                <div class="card-footer text-center border rounded-bottom p-5">
+                    <a class="btn btn-sm btn-primary btn-wide" href="{% url 'kb:r_packages' 'dplyr' %}">
+                        Learn More
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% include 'Knowledge_Base/footer.html' %}
+{% endblock %}
+
+{% block js %}
+<script src="{% static 'Knowledge_Base/index_assets/vendor/dzsparallaxer/dzsparallaxer.js' %}"></script>
+{% endblock %}

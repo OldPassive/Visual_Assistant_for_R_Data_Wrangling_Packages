@@ -1,0 +1,107 @@
+{% extends 'Knowledge_Base/base.html' %}
+{% load staticfiles %}
+
+{% block css %}
+<link rel="stylesheet" href="{% static 'Knowledge_Base/custom-index.css' %}"/>
+{% endblock %}
+
+{% block content %}
+<div class="bg-img-hero-center" style="background-image: url({% static 'Knowledge_Base/images/dw_bg.png' %});">
+    <div class="container space-2 space-4-top--lg space-3-bottom--lg">
+        <div class="w-md-75">
+            <div class="mb-7" style="padding-bottom: 20px;">
+                <h1 class="display-1 text-white">Data Wrangling</h1><br>
+                <h2 class="display-3 text-right text-white">with R Packages</h2>
+                <h5 class="h5 text-white">Data Wrangling</h5>
+                <p class="lead text-white">
+                    Data wrangling can be defined as the process of yielding a data set suitable for exploration and analysis.
+                    It is the practical task of transforming the layout, substance, and display of the data.
+                </p>
+                <h5 class="h5 text-white">R</h5>
+                <p class="lead text-white">R is a common tool for data wrangling tasks.
+                    There are some packages are designed especially for data wrangling tasks.</p>
+                <a href="{% url 'kb:dw_bg'%}" class="align-right">
+                    <button type="button" class="btn btn-dark">
+                        Before you start...
+                    </button>
+                </a>
+            </div>
+        </div>
+        <div class="w-md-75 w-lg-50">
+            <form class="js-validate js-form-message" action="#searchlist">
+                {% csrf_token %}
+                <div class="js-focus-state input-group input-group-lg form form--lg form--white-brd">
+                    <input type="search" class="form-control form__input" name="keyword" placeholder="Search Knowledge Base">
+                    <span class="input-group-append">
+                        <button type="submit" class="btn btn-dark">Search</button>
+                    </span>
+                </div>
+            </form>
+            <ul id="searchlist" class="listgroup">
+                {% for result_function in result_functions %}
+                {% if result_function in dm_functions %}
+                <li class="list-group-item">
+                    <a href="{% url 'kb:dm_content' result_function.function_id %}" class="search_a">
+                        {{ result_function.function_name }}
+                    </a>
+                </li>
+                {% endif %}
+                {% if result_function in dt_functions %}
+                <li class="list-group-item">
+                    <a href="{% url 'kb:dt_content' result_function.function_id %}" class="search_a">
+                        {{ result_function.function_name }}
+                    </a>
+                </li>
+                {% endif %}
+                {% if result_function in dv_functions %}
+                <li class="list-group-item">
+                    <a href="{% url 'kb:dv_content' result_function.function_id %}" class="search_a">
+                        {{ result_function.function_name }}
+                    </a>
+                </li>
+                {% endif %}
+                {% endfor %}
+                {% for result_package in result_packages %}
+                <li class="list-group-item">
+                    <a href="{% url 'kb:r_packages' result_package.package_name %}" class="search_a">
+                        {{ result_package.package_name }}
+                    </a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="container-fluid" style="padding-top:30px; padding-bottom:30px;">
+    <div class="row">
+        <div class="category col-md-4">
+            <a href="{% url 'kb:r_packages' 'dplyr' %}">
+                {% load static %}
+                <img src="{% static 'Knowledge_Base/images/Data_Manipulation.jpg' %}" style="width:100%">
+                <div class="category_icon">
+                    <h1><strong>Package: dplyr</strong></h1>
+                </div>
+            </a>
+        </div>
+        <div class="category col-md-4">
+            <a href="{% url 'kb:r_packages' 'tidyr' %}">
+                {% load static %}
+                <img src="{% static 'Knowledge_Base/images/Data_Tidying.jpg' %}" style="width:100%">
+                <div class="category_icon">
+                    <h1><strong>Package: tidyr</strong></h1>
+                </div>
+            </a>
+        </div>
+        <div class="category col-md-4">
+            <a href="{% url 'kb:r_packages' 'ggvis' %}">
+                {% load static %}
+                <img src="{% static 'Knowledge_Base/images/Data_Visualization.jpg' %}" style="width:100%">
+                <div class="category_icon">
+                    <h1><strong>Package: ggvis</strong></h1>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+{% include 'Knowledge_Base/footer.html' %}
+{% endblock %}

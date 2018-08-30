@@ -1,0 +1,14 @@
+/*------------------------------------
+  Card
+------------------------------------*/
+
+// Card image caps
+.card-img-right {
+  width: 100%; // Required because we use flexbox and this inherently applies align-self: stretch
+  @include border-right-radius($card-inner-border-radius);
+}
+
+.card-img-left {
+  width: 100%; // Required because we use flexbox and this inherently applies align-self: stretch
+  @include border-left-radius($card-inner-border-radius);
+}

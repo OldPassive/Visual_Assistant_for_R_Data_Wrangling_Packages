@@ -1,0 +1,9 @@
+.nav-card{
+    color: white;
+}
+
+.nav-card:hover{
+    text-decoration:none;
+    color: #000000;
+}
+

@@ -1,0 +1,785 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/Knowledge_Base/templates/Knowledge_Base/dm-content.html" description="{% extends 'Knowledge_Base/base.html' %}&#10;{% load s..." line="0" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9524207e-ef87-4b98-bb2c-af4d99f8a1f7" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="763926291">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="17" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.4" value="11" />
+          <entry key="project.open.time.5" value="3" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.opened" value="20" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="57" />
+          <entry key="custom-dw-index-css" value="3" />
+          <entry key="html" value="237" />
+          <entry key="jpg" value="3" />
+          <entry key="js" value="13" />
+          <entry key="map" value="2" />
+          <entry key="md" value="1" />
+          <entry key="png" value="2" />
+          <entry key="properties" value="1" />
+          <entry key="py" value="103" />
+          <entry key="rnc" value="1" />
+          <entry key="svg" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="51" />
+          <entry key="HTML" value="237" />
+          <entry key="Image" value="5" />
+          <entry key="JavaScript" value="13" />
+          <entry key="Markdown" value="1" />
+          <entry key="PLAIN_TEXT" value="11" />
+          <entry key="Properties" value="1" />
+          <entry key="Python" value="103" />
+          <entry key="RNG Compact" value="1" />
+          <entry key="SVG" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="586" />
+          <entry key="custom-dw-index-css" value="12" />
+          <entry key="html" value="12816" />
+          <entry key="js" value="3" />
+          <entry key="py" value="5722" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="537" />
+          <entry key="HTML" value="12816" />
+          <entry key="JavaScript" value="3" />
+          <entry key="PLAIN_TEXT" value="61" />
+          <entry key="Python" value="5722" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Knowledge_Base/templates/Knowledge_Base/dm-content.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="90" column="36" selection-start-line="90" selection-start-column="27" selection-end-line="90" selection-end-column="46" />
+              <folding>
+                <element signature="e#722#3985#0" />
+                <element signature="e#6117#6457#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Knowledge_Base/static/Knowledge_Base/content_assets/js/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-452">
+              <caret line="205" column="24" selection-start-line="205" selection-start-column="18" selection-end-line="205" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>card</find>
+      <find>sidebar</find>
+      <find>xadmin</find>
+      <find>initScroller</find>
+      <find>left-side</find>
+      <find>be-fixed</find>
+      <find>footer</find>
+      <find>pricing</find>
+      <find>pricing-table</find>
+      <find>be-booking</find>
+      <find>u-header--navbar-bg</find>
+      <find>be-left-sidebar</find>
+      <find>left-sidebar</find>
+      <find>be-left</find>
+      <find>navbar</find>
+      <find>navitem</find>
+      <find>nav-item</find>
+      <find>font-size-48</find>
+      <find>mb</find>
+      <find>u-info</find>
+      <find>u-header__nav-link</find>
+      <find>init</find>
+      <find>search</find>
+      <find>u-header</find>
+      <find>u-header__nav-item</find>
+      <find>media</find>
+      <find>opensidebar</find>
+      <find>left-sidebar-scroll</find>
+      <find>scroll</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>block navbar</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/xadmin" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/DM/templates/index.html" />
+        <option value="$PROJECT_DIR$/DM/urls.py" />
+        <option value="$PROJECT_DIR$/DM/views.py" />
+        <option value="$PROJECT_DIR$/DT/views.py" />
+        <option value="$PROJECT_DIR$/DT/templates/DT/index.html" />
+        <option value="$PROJECT_DIR$/DV/views.py" />
+        <option value="$PROJECT_DIR$/DV/templates/DV/index.html" />
+        <option value="$PROJECT_DIR$/DM/apps.py" />
+        <option value="$PROJECT_DIR$/templates/data_manipulation-content.html" />
+        <option value="$PROJECT_DIR$/templates/data_tidying-content.html" />
+        <option value="$PROJECT_DIR$/templates/data_visualization-content.html" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/apps/Data_Visualization/views.py" />
+        <option value="$PROJECT_DIR$/apps/Data_Tidying/views.py" />
+        <option value="$PROJECT_DIR$/apps/Data_Manipulation/views.py" />
+        <option value="$PROJECT_DIR$/Knowledge_Base/apps.py" />
+        <option value="$PROJECT_DIR$/Knowledge_Base/templates/Knowledge_Base/data_visualization-content.html" />
+        <option value="$PROJECT_DIR$/Knowledge_Base/templates/Knowledge_Base/data_tidying-content.html" />
+        <option value="$PROJECT_DIR$/Knowledge_Base/templates/Knowledge_Base/data-manipulation-index.html" />
+        <option value="$PROJECT_DIR$/Knowledge_Base/templates/Knowledge_Base/data-tidying-index.html" />
+        <option value="$PROJECT_DIR$/Knowledge_Base/templates/Knowledge_Base/data-visualization-index.html" />
+        <option value="$PROJECT_DIR$/Knowledge_Base/templates/Knowledge_Base/data_manipulation-content.html" />
+        <option value="$PROJECT_DIR$/Knowledge_Base/admin.py" />
+        <option value="$PROJECT_DIR$/Knowledge_Base/templates/Knowledge_Base/dwterms.html" />
+        <option value="$PROJECT_DIR$/Knowledge_Base/static/Knowledge_Base/css/theme.css" />
+        <option value="$PROJECT_DIR$/Knowledge_Base/static/Knowledge_Base/css/style.css" />
+        <option value="$PROJECT_DIR$/Visual_Assistant_for_R_Data_Wrangling_Packages/settings.py" />
+        <option value="$PROJECT_DIR$/Knowledge_Base/templates/Knowledge_Base/pages-booking.html" />
+        <option value="$PROJECT_DIR$/Knowledge_Base/static/Knowledge_Base/content_assets/js/app.js" />
+        <option value="$PROJECT_DIR$/Knowledge_Base/static/Knowledge_Base/style.css" />
+        <option value="$PROJECT_DIR$/Knowledge_Base/static/Knowledge_Base/custom-dw-index-css" />
+        <option value="$PROJECT_DIR$/Knowledge_Base/static/Knowledge_Base/content_assets/css/app.css" />
+        <option value="$PROJECT_DIR$/Knowledge_Base/templates/Knowledge_Base/dt-index.html" />
+        <option value="$PROJECT_DIR$/Knowledge_Base/templates/Knowledge_Base/dm-index.html" />
+        <option value="$PROJECT_DIR$/Knowledge_Base/templates/Knowledge_Base/dv-index.html" />
+        <option value="$PROJECT_DIR$/Knowledge_Base/static/Knowledge_Base/custom-content.css" />
+        <option value="$PROJECT_DIR$/Knowledge_Base/urls.py" />
+        <option value="$PROJECT_DIR$/Visual_Assistant_for_R_Data_Wrangling_Packages/urls.py" />
+        <option value="$PROJECT_DIR$/Knowledge_Base/static/Knowledge_Base/custom-index.css" />
+        <option value="$PROJECT_DIR$/Knowledge_Base/templates/Knowledge_Base/footer.html" />
+        <option value="$PROJECT_DIR$/Knowledge_Base/models.py" />
+        <option value="$PROJECT_DIR$/Knowledge_Base/templates/Knowledge_Base/dataset-content.html" />
+        <option value="$PROJECT_DIR$/Knowledge_Base/templates/Knowledge_Base/dm-content.html" />
+        <option value="$PROJECT_DIR$/Knowledge_Base/templates/Knowledge_Base/dt-content.html" />
+        <option value="$PROJECT_DIR$/Knowledge_Base/templates/Knowledge_Base/dv-content.html" />
+        <option value="$PROJECT_DIR$/Knowledge_Base/static/Knowledge_Base/custom-dw-index.css" />
+        <option value="$PROJECT_DIR$/Knowledge_Base/views.py" />
+        <option value="$PROJECT_DIR$/Knowledge_Base/templates/Knowledge_Base/r-package-content.html" />
+        <option value="$PROJECT_DIR$/Knowledge_Base/templates/Knowledge_Base/base.html" />
+        <option value="$PROJECT_DIR$/Knowledge_Base/templates/Knowledge_Base/index.html" />
+        <option value="$PROJECT_DIR$/Knowledge_Base/templates/Knowledge_Base/dw-background.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Visual_Assistant_for_R_Data_Wrangling_Packages" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Visual_Assistant_for_R_Data_Wrangling_Packages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Visual_Assistant_for_R_Data_Wrangling_Packages" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Visual_Assistant_for_R_Data_Wrangling_Packages" type="462c0819:PsiDirectoryNode" />
+              <item name="Knowledge_Base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Visual_Assistant_for_R_Data_Wrangling_Packages" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Visual_Assistant_for_R_Data_Wrangling_Packages" type="462c0819:PsiDirectoryNode" />
+              <item name="Knowledge_Base" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Visual_Assistant_for_R_Data_Wrangling_Packages" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Visual_Assistant_for_R_Data_Wrangling_Packages" type="462c0819:PsiDirectoryNode" />
+              <item name="Knowledge_Base" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="Knowledge_Base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Visual_Assistant_for_R_Data_Wrangling_Packages" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Visual_Assistant_for_R_Data_Wrangling_Packages" type="462c0819:PsiDirectoryNode" />
+              <item name="Knowledge_Base" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="Knowledge_Base" type="462c0819:PsiDirectoryNode" />
+              <item name="content_assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Visual_Assistant_for_R_Data_Wrangling_Packages" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Visual_Assistant_for_R_Data_Wrangling_Packages" type="462c0819:PsiDirectoryNode" />
+              <item name="Knowledge_Base" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="Knowledge_Base" type="462c0819:PsiDirectoryNode" />
+              <item name="content_assets" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Visual_Assistant_for_R_Data_Wrangling_Packages" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Visual_Assistant_for_R_Data_Wrangling_Packages" type="462c0819:PsiDirectoryNode" />
+              <item name="Knowledge_Base" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Visual_Assistant_for_R_Data_Wrangling_Packages" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Visual_Assistant_for_R_Data_Wrangling_Packages" type="462c0819:PsiDirectoryNode" />
+              <item name="Knowledge_Base" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="Knowledge_Base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Visual_Assistant_for_R_Data_Wrangling_Packages" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Visual_Assistant_for_R_Data_Wrangling_Packages" type="462c0819:PsiDirectoryNode" />
+              <item name="Visual_Assistant_for_R_Data_Wrangling_Packages" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SearchEverywhereHistoryKey" value="breadcrumb&#9;FILE&#9;file://E:/Projects/Visual_Assistant_for_R_Data_Wrangling_Packages/Knowledge_Base/templates/Knowledge_Base/bootstrap-4.1.1/docs/4.1/components/breadcrumb.md" />
+    <property name="last_opened_file_path" value="D:/Program Files/Git/bin/git.exe" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Projects\Visual_Assistant_for_R_Data_Wrangling_Packages\Knowledge_Base\static\Knowledge_Base" />
+      <recent name="E:\Projects\Visual_Assistant_for_R_Data_Wrangling_Packages\Knowledge_Base\static\Knowledge_Base\scss" />
+      <recent name="E:\Projects\Visual_Assistant_for_R_Data_Wrangling_Packages\Knowledge_Base\static\Knowledge_Base\css" />
+      <recent name="E:\Projects\Visual_Assistant_for_R_Data_Wrangling_Packages" />
+      <recent name="E:\Projects\Visual_Assistant_for_R_Data_Wrangling_Packages\Knowledge_Base" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Projects\Visual_Assistant_for_R_Data_Wrangling_Packages\Knowledge_Base\static\Knowledge_Base\index_assets\vendor" />
+      <recent name="E:\Projects\Visual_Assistant_for_R_Data_Wrangling_Packages\Knowledge_Base\templates\Knowledge_Base" />
+      <recent name="E:\Projects\Visual_Assistant_for_R_Data_Wrangling_Packages\Knowledge_Base\static\Knowledge_Base\content_assets\css" />
+      <recent name="E:\Projects\Visual_Assistant_for_R_Data_Wrangling_Packages\Knowledge_Base\static\Knowledge_Base" />
+      <recent name="E:\Projects\Visual_Assistant_for_R_Data_Wrangling_Packages\Knowledge_Base\static\Knowledge_Base\css" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.views">
+    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Visual_Assistant_for_R_Data_Wrangling_Packages" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Visual_Assistant_for_R_Data_Wrangling_Packages" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="urls" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Visual_Assistant_for_R_Data_Wrangling_Packages" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Visual_Assistant_for_R_Data_Wrangling_Packages" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Visual_Assistant_for_R_Data_Wrangling_Packages/urls.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Visual_Assistant_for_R_Data_Wrangling_Packages" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Knowledge_Base" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Knowledge_Base/views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.manage" />
+      <item itemvalue="Python.urls" />
+      <item itemvalue="Python.views" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.views" />
+        <item itemvalue="Python.urls" />
+        <item itemvalue="Python.manage" />
+        <item itemvalue="Python.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9524207e-ef87-4b98-bb2c-af4d99f8a1f7" name="Default" comment="" />
+      <created>1532359469931</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1532359469931</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1332982" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49947312" weight="0.3449024" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38394794" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="8" sideWeight="0.49736565" weight="0.3264642" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50052685" side_tool="true" weight="0.34056398" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/extra_apps/xadmin" />
+      <path value="$PROJECT_DIR$/xadmin" />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://D:/Program Files/Python36/Lib/site-packages/django/conf/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bootstrap_Test/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Python/project/c0ks5j/MxOnline/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4082" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Python/project/c0ks5j/apps/courses/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1153">
+          <caret line="51" column="25" lean-forward="true" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/pycharm.jar!/resources/html5-schema/html5/block.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="88" column="16" selection-start-line="88" selection-start-column="16" selection-end-line="88" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Knowledge_Base/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Knowledge_Base/static/Knowledge_Base/theme.css.map" />
+    <entry file="file://$PROJECT_DIR$/Knowledge_Base/templates/Knowledge_Base/bootstrap-4.1.1/docs/4.1/components/breadcrumb.md" />
+    <entry file="file://$PROJECT_DIR$/Knowledge_Base/static/Knowledge_Base/theme.css" />
+    <entry file="file://$PROJECT_DIR$/Knowledge_Base/static/Knowledge_Base/img/layouts/layout-nav-top.svg" />
+    <entry file="file://$PROJECT_DIR$/Knowledge_Base/static/Knowledge_Base/css/theme.css.map" />
+    <entry file="file://$PROJECT_DIR$/Knowledge_Base/static/Knowledge_Base/css/theme.css" />
+    <entry file="file://$PROJECT_DIR$/Knowledge_Base/static/Knowledge_Base/scss/custom/components/plugins/prism.css" />
+    <entry file="file://$PROJECT_DIR$/Knowledge_Base/static/Knowledge_Base/Theme_content/assets/css/theme.css" />
+    <entry file="file://$PROJECT_DIR$/Knowledge_Base/templates/Knowledge_Base/pages-booking.html" />
+    <entry file="file://$PROJECT_DIR$/Knowledge_Base/static/Knowledge_Base/content_assets/lib/perfect-scrollbar/js/perfect-scrollbar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="1117" column="53" selection-start-line="1117" selection-start-column="53" selection-end-line="1117" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Python/project/c0ks5j/apps/courses/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Python/project/c0ks5j/apps/courses/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3460" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Python/project/c0ks5j/MxOnline/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="44" column="33" lean-forward="true" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Knowledge_Base/static/Knowledge_Base/content_assets/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="937">
+          <caret line="11328" column="20" selection-start-line="11328" selection-start-column="20" selection-end-line="11328" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Knowledge_Base/static/Knowledge_Base/css.properties" />
+    <entry file="file://$PROJECT_DIR$/Knowledge_Base/static/Knowledge_Base/images/DM_Background.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Knowledge_Base/static/Knowledge_Base/images/DT_Background.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Knowledge_Base/static/Knowledge_Base/images/DV_Background.png" />
+    <entry file="file://$PROJECT_DIR$/Knowledge_Base/static/Knowledge_Base/index_assets/vendor/dzsparallaxer/dzsparallaxer.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Knowledge_Base/static/Knowledge_Base/images/dw_bg.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Knowledge_Base/static/Knowledge_Base/index_assets/vendor/jquery-ui/ui/i18n/datepicker-af.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Knowledge_Base/static/Knowledge_Base/index_assets/js/components/hs.header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-900" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Knowledge_Base/static/Knowledge_Base/custom-content.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Knowledge_Base/static/Knowledge_Base/custom-index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="801">
+          <caret line="37" column="9" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Visual_Assistant_for_R_Data_Wrangling_Packages/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="119" column="13" lean-forward="true" selection-start-line="119" selection-start-column="13" selection-end-line="119" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Knowledge_Base/templates/Knowledge_Base/dv-content.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="78" column="17" selection-start-line="78" selection-start-column="17" selection-end-line="78" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Knowledge_Base/templates/Knowledge_Base/dt-content.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="78" column="17" selection-start-line="78" selection-start-column="17" selection-end-line="78" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Knowledge_Base/static/Knowledge_Base/custom-dw-index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Knowledge_Base/templates/Knowledge_Base/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="53" column="12" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Knowledge_Base/templates/Knowledge_Base/dm-index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2460">
+          <caret line="109" column="60" selection-start-line="109" selection-start-column="60" selection-end-line="109" selection-end-column="60" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Knowledge_Base/static/Knowledge_Base/index_assets/css/theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="1056" column="6" selection-start-line="1056" selection-start-column="1" selection-end-line="1056" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Knowledge_Base/templates/Knowledge_Base/dw-background.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="50" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Knowledge_Base/templates/Knowledge_Base/dt-index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="12" column="90" lean-forward="true" selection-start-line="12" selection-start-column="90" selection-end-line="12" selection-end-column="90" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Knowledge_Base/templates/Knowledge_Base/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="717">
+          <caret line="83" column="87" selection-start-line="83" selection-start-column="87" selection-end-line="83" selection-end-column="87" />
+          <folding>
+            <element signature="n#meta#1;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#link#4;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#link#9;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#link#10;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#ul#0;n#li#4;n#ul#0;n#div#1;n#nav#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#script#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#script#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#script#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#script#25;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Knowledge_Base/templates/Knowledge_Base/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-506">
+          <caret line="66" column="57" lean-forward="true" selection-start-line="66" selection-start-column="57" selection-end-line="66" selection-end-column="57" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#li#1;n#ul#0;n#div#1;n#div#0;n#div#0;n#!!top" />
+            <element signature="n#li#2;n#ul#0;n#div#1;n#div#0;n#div#0;n#!!top" />
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Visual_Assistant_for_R_Data_Wrangling_Packages/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="717">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="e#694#726#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Knowledge_Base/templates/Knowledge_Base/r-package-content.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-26">
+          <caret line="3" column="42" lean-forward="true" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#a#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#a#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" />
+            <element signature="n#a#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" />
+            <element signature="n#a#4;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" />
+            <element signature="n#style#0;n#p#0;n#a#4;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#button#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Knowledge_Base/templates/Knowledge_Base/dv-index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="86" column="40" selection-start-line="86" selection-start-column="40" selection-end-line="86" selection-end-column="40" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Knowledge_Base/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="35" lean-forward="true" selection-start-column="35" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Knowledge_Base/templates/Knowledge_Base/dataset-content.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="81" column="6" lean-forward="true" selection-start-line="81" selection-start-column="6" selection-end-line="81" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Knowledge_Base/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Knowledge_Base/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="44" column="39" lean-forward="true" selection-start-line="44" selection-start-column="39" selection-end-line="44" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Knowledge_Base/templates/Knowledge_Base/dm-content.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="90" column="36" selection-start-line="90" selection-start-column="27" selection-end-line="90" selection-end-column="46" />
+          <folding>
+            <element signature="e#722#3985#0" />
+            <element signature="e#6117#6457#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Knowledge_Base/static/Knowledge_Base/content_assets/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-452">
+          <caret line="205" column="24" selection-start-line="205" selection-start-column="18" selection-end-line="205" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

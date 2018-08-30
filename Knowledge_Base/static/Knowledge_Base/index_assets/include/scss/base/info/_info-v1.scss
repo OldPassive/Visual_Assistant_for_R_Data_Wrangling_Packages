@@ -1,0 +1,15 @@
+/*------------------------------------
+  Info v1
+------------------------------------*/
+
+.u-info-v1 {
+  border: 1px solid $gray-300;
+  border-top-width: 4px;
+  transition: $transition-timing;
+
+  &.active,
+  &:hover {
+    border-color: rgba($primary, .7);
+    box-shadow: $box-shadow;
+  }
+}

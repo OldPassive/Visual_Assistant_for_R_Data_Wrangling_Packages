@@ -1,0 +1,100 @@
+{% extends 'Knowledge_Base/base.html' %}
+{% load static %}
+{% block css %}
+<link rel="stylesheet" href="{% static 'Knowledge_Base/index_assets/vendor/dzsparallaxer/dzsparallaxer.css' %}">
+<link rel="stylesheet" href="{% static 'Knowledge_Base/custom-dw-index.css' %}"/>
+{% endblock %}
+{% block title %}Data Visualization{% endblock %}
+
+{% block content %}
+<div class="dzsparallaxer auto-init height-is-based-on-content use-loading mode-scroll"
+     data-options='{direction: "normal"}'>
+    <div class="divimage dzsparallaxer--target gradient-overlay-half-dark-v2" style="height: 120%;
+    background-image: url({% static 'Knowledge_Base/images/DV_Background.jpg' %});"></div>
+
+    <div class="d-flex align-items-center height-600 position-relative z-index-2">
+        <div class="w-lg-60 text-center mx-lg-auto mb-9">
+            <div class="mb-7">
+                <h1 class="display-2 font-size-48--md-down text-white mb-4">Data Visualization</h1>
+                <h2 class="text-white">
+                    Transforming the data to a visual format that reveals visual pattern.
+                </h2>
+            </div>
+            <h2 class="text-white">with</h2>
+            <h2 class="text-white">ggvis</h2>
+      </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-9 col-md-9 col-lg-9 col-xl-9">
+            <div class="row" style="padding-top:30px">
+                <div class="col-12 col-md-4 col-lg-4 col-xl-4 text-center">
+                    <a href="{% url 'kb:dv_content' 126 %}" class="nav-card">
+                        <div class="card" style="height: 170px; background: #8E354A">
+                            <h3 style="margin-top: 18%;">Basic Plot</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 col-xl-4 text-center">
+                    <a href="{% url 'kb:dv_content' 137 %}" class="nav-card">
+                        <div class="card" style="height: 170px; background: #CB4042">
+                            <h3 style="margin-top: 18%;">Properties(ggvis)</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 col-xl-4 text-center">
+                    <a href="{% url 'kb:dv_content' 157 %}" class="nav-card">
+                        <div class="card" style="height: 170px; background: #DB4D6D">
+                            <h3 style="margin-top: 18%;">Layers(ggvis)</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="row" style="padding-bottom: 30px; padding-top: 15px;">
+                <div class="col-12 col-md-4 col-lg-4 col-xl-4 text-center">
+                    <a href="{% url 'kb:dv_content' 173 %}" class="nav-card">
+                        <div class="card" style="height: 170px; background: #E16B8C">
+                            <h3 style="margin-top: 18%;">Visualization Modification</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 col-xl-4 text-center">
+                    <a href="{% url 'kb:dv_content' 191 %}" class="nav-card">
+                        <div class="card" style="height: 170px; background: #F4A7B9">
+                            <h3 style="margin-top: 18%;">Group Visualization</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 col-xl-4 text-center">
+                    <a href="{% url 'kb:dv_content' 193 %}" class="nav-card">
+                        <div class="card" style="height: 170px; background: #FEDFE1">
+                            <h3 style="margin-top: 18%;">Related Calculations</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex align-items-start col-3 col-md-3 col-lg-3 col-xl-3"
+             style="padding-bottom: 30px; padding-top: 30px">
+            <div class="card border-0">
+                <div class="card-body border border-bottom-0 rounded-top text-center p-5">
+                    <h4 class="h5 mb-1">ggvis</h4>
+                    <p class="mb-0">Not familiar with the package?</p>
+                    <p class="mb-0">Would like to know more?</p>
+                </div>
+                <div class="card-footer text-center border rounded-bottom p-5">
+                    <a class="btn btn-sm btn-danger btn-wide" href="{% url 'kb:r_packages' 'ggvis' %}">
+                        Learn More
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% include 'Knowledge_Base/footer.html' %}
+{% endblock %}
+
+{% block js %}
+<script src="{% static 'Knowledge_Base/index_assets/vendor/dzsparallaxer/dzsparallaxer.js' %}"></script>
+{% endblock %}

@@ -1,0 +1,99 @@
+{% extends 'Knowledge_Base/base.html' %}
+{% load static %}
+{% block css %}
+<link rel="stylesheet" href="{% static 'Knowledge_Base/index_assets/vendor/dzsparallaxer/dzsparallaxer.css' %}">
+<link rel="stylesheet" href="{% static 'Knowledge_Base/custom-dw-index.css' %}"/>
+{% endblock %}
+{% block title %}Data Tidying{% endblock %}
+
+{% block content %}
+<div class="dzsparallaxer auto-init height-is-based-on-content use-loading mode-scroll"
+     data-options='{direction: "normal"}'>
+    <div class="divimage dzsparallaxer--target gradient-overlay-half-dark-v2" style="height: 120%;
+    background-image: url({% static 'Knowledge_Base/images/DT_Background.jpg' %});"></div>
+
+    <div class="d-flex align-items-center height-600 position-relative z-index-2">
+        <div class="w-lg-60 text-center mx-lg-auto mb-9">
+            <div class="mb-7">
+                <h1 class="display-2 font-size-48--md-down text-white mb-4">Data Tidying</h1>
+                <h2 class="text-white">
+                    Changing the layout of tabular data to make.
+                </h2>
+            </div>
+            <h2 class="text-white">with</h2>
+            <h2 class="text-white">dplyr and tidyr</h2>
+      </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row" style="padding-bottom: 30px; padding-top: 30px">
+        <div class="col-9 col-md-9 col-lg-9 col-xl-9">
+            <ul class="list-unstyled">
+                <li class="mt-2 mb-4">
+                    <a class="d-block u-info-v1 rounded p-5 nav-card" href="{% url 'kb:dt_content' 89 %}">
+                        <div class="row align-items-center">
+                            <div class="col-3 col-md-2">
+                                <img class="d-block max-width-9 mx-auto"
+                                     src="{% static 'Knowledge_Base/images/Reshaping.svg' %}"
+                                     alt="Image Description">
+                            </div>
+                            <div class="col-9 col-md-10">
+                                <h3 class="h4" style="color: green;">Reshaping Data</h3>
+                                <div class="media">
+                                    <div class="media-body">
+                                        <small class="d-block text-muted">Change the content of a dataset.</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="mt-4 mb-0">
+                    <a class="d-block u-info-v1 rounded p-5 nav-card" href="{% url 'kb:dt_content' 112 %}">
+                        <div class="row align-items-center">
+                            <div class="col-3 col-md-2">
+                                <img class="d-block max-width-9 mx-auto"
+                                     src="{% static 'Knowledge_Base/images/Combination.svg' %}"
+                                     alt="Image Description">
+                            </div>
+                            <div class="col-9 col-md-10">
+                                <h3 class="h4" style="color: green;">Combination of Datasets</h3>
+                                <div class="media">
+                                    <div class="media-body">
+                                        <small class="d-block text-muted">Combine several datasets into one.</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="d-flex align-items-start col-3 col-md-3 col-lg-3 col-xl-3">
+            <div class="card border-0">
+                <div class="card-body border border-bottom-0 rounded-top text-center p-5">
+                    <h4 class="h5 mb-1">dplyr</h4>
+                    <p class="mb-0">Not familiar with dplyr?</p>
+                    <p class="mb-0">Would like to know more?</p>
+                    <a class="btn btn-sm btn-success btn-wide" href="{% url 'kb:r_packages' 'dplyr' %}">
+                        Learn More
+                    </a>
+                </div>
+                <div class="card-footer text-center border rounded-bottom p-5">
+                    <h4 class="h5 mb-1">tidyr</h4>
+                    <p class="mb-0">Not familiar with tidyr?</p>
+                    <p class="mb-0">Would like to know more?</p>
+                    <a class="btn btn-sm btn-success btn-wide" href="{% url 'kb:r_packages' 'tidyr' %}">
+                        Learn More
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% include 'Knowledge_Base/footer.html' %}
+{% endblock %}
+
+{% block js %}
+<script src="{% static 'Knowledge_Base/index_assets/vendor/dzsparallaxer/dzsparallaxer.js' %}"></script>
+{% endblock %}

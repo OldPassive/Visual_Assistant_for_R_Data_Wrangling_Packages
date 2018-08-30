@@ -1,0 +1,202 @@
+{% extends 'Knowledge_Base/base.html' %}
+{% load staticfiles %}
+{% block css %}
+    <link rel="stylesheet" type="text/css"
+          href="{% static 'Knowledge_Base/content_assets/lib/perfect-scrollbar/css/perfect-scrollbar.css' %}"/>
+    <link rel="stylesheet" type="text/css"
+          href="{% static 'Knowledge_Base/content_assets/lib/material-design-icons/css/material-design-iconic-font.min.css' %}"/>
+    <link rel="stylesheet"
+          href="{% static 'Knowledge_Base/content_assets/css/app.css' %}" type="text/css"/>
+    <link rel="stylesheet" type="text/css"
+          href="{% static 'Knowledge_Base/custom-content.css' %}"/>
+{% endblock %}
+{% block title %}Data Manipulation{% endblock %}
+
+{% block header %}
+<nav class="js-mega-menu navbar navbar-expand-lg u-header__navbar fixed-top">
+    <div class="u-header__navbar-brand-wrapper">
+        <a class="navbar-brand u-header__navbar-brand" href="{% url 'index' %}">
+            <span class="u-header__navbar-brand-default">Data Wrangling with R</span>
+        </a>
+    </div>
+    <button type="button" class="navbar-toggler btn u-hamburger u-header__hamburger"
+            aria-label="Toggle navigation"
+            aria-expanded="false"
+            aria-controls="navBar"
+            data-toggle="collapse"
+            data-target="#navBar">
+        <span class="d-none d-sm-inline-block">Menu</span>
+        <span id="hamburgerTrigger" class="u-hamburger__box ml-3">
+            <span class="u-hamburger__inner"></span>
+        </span>
+    </button>
+    <div id="navBar" class="collapse navbar-collapse u-header__navbar-collapse py-0">
+        <ul class="navbar-nav u-header__navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link u-header__nav-link" href="{% url 'index' %}">
+                    Home
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link u-header__nav-link" href="/data-manipulation-index/">
+                    Data Manipulation
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link u-header__nav-link" href="/data-tidying-index/">
+                    Data Tidying
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link u-header__nav-link" href="/data-visualization-index/">
+                    Data Visualization
+                </a>
+            </li>
+            <li class="nav-item hs-has-sub-menu" data-event="hover"
+                data-animation-in="fadeInUp" data-animation-out="fadeOut">
+                <a id="shopMegaMenu" class="nav-link u-header__nav-link" href="javascript:;"
+                   aria-haspopup="true" aria-expanded="false" aria-labelledby="shopSubMenu">
+                    Tips<span class="fa fa-angle-down u-header__nav-link-icon"></span>
+                </a>
+                <ul id="shopSubMenu" class="list-inline hs-sub-menu u-header__sub-menu mb-0"
+                    style="min-width: 220px;" aria-labelledby="shopMegaMenu">
+                    <li class="dropdown-item u-header__sub-menu-list-item py-0">
+                        <a class="nav-link u-header__sub-menu-nav-link" href="{% url 'kb:dw_bg' %}">
+                            Background Knowledge
+                        </a>
+                    </li>
+                    <li class="dropdown-item u-header__sub-menu-list-item py-0">
+                        <a class="nav-link u-header__sub-menu-nav-link" href="{% url 'kb:r_packages' 'dplyr' %}">
+                            Package Information
+                        </a>
+                    </li>
+                    <li class="dropdown-item u-header__sub-menu-list-item py-0">
+                        <a class="nav-link u-header__sub-menu-nav-link" href="{% url 'kb:data_sets' 'df_comp' %}">
+                            Example Datasets
+                        </a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+{% endblock %}
+
+{% block content %}
+<div class="be-wrapper be-fixed-sidebar" style="padding-top: 35px;">
+    <div class="be-left-sidebar">
+       <div class="left-sidebar-wrapper">
+           <a class="left-sidebar-toggle" href="#">Menu</a>
+           <div class="left-sidebar-spacer">
+               <div class="left-sidebar-scroll">
+                   <div class="left-sidebar-content">
+                       <ul class="sidebar-elements">
+                           <li class="divider">Data Manipulation</li>
+                           {% for dm_subcategory in dm_subcategories %}
+                           <li class="parent">
+                               <a href="#">
+                                   <span>{{ dm_subcategory.subcategory_name }}</span>
+                               </a>
+                               <ul class="sub-menu">
+                                   {% for dm_function in dm_subcategory.get_r_functions %}
+                                   <li>
+                                       <a href="{% url 'kb:dm_content' dm_function.function_id %}">
+                                       {{ dm_function.function_name }}
+                                       </a>
+                                   </li>
+                                   {% endfor %}
+                               </ul>
+                           </li>
+                           {% endfor %}
+                       </ul>
+                   </div>
+               </div>
+           </div>
+       </div>
+    </div>
+    <div class="be-content">
+        <div class="main-content container-fluid">
+            <div class="row">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item">Data Manipulation</li>
+                        <li class="breadcrumb-item">{{ current_r_function.subcategory.subcategory_name }}</li>
+                        <li class="breadcrumb-item" aria-current="page">{{ current_r_function.function_name }}</li>
+                    </ol>
+                </nav>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="pricing-table pricing-table-primary text-left">
+                        <h4>Function Name</h4>
+                        <div class="card-divider card-divider-xl"></div>
+                        <p>{{ current_r_function.function_name }}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="pricing-table pricing-table-primary text-left">
+                        <h4>Description</h4>
+                        <div class="card-divider card-divider-xl"></div>
+                        <pre class="border"><code>{{ current_r_function.function_format }}</code></pre>
+                        <p>{{ current_r_function.function_description }}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="pricing-table pricing-table-primary text-left">
+                        <h4>Package</h4>
+                        <div class="card-divider card-divider-xl"></div>
+                        <a href="{% url 'kb:r_packages' current_r_function.package.package_name %}">{{ current_r_function.package.package_name }}</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="pricing-table pricing-table-primary text-left">
+                        <h4>Usages</h4>
+                        <div class="card-divider card-divider-xl"></div>
+                        {% for usage in function_usages %}
+                        <p>{{ usage.usage_description }}</p>
+                        <pre class="border"><code>{{ usage.usage_format }}</code></pre>
+                        {% for example in usage.get_example %}
+                        <h5>Example</h5>
+                        <p>data set:
+                            <a href="{% url 'kb:data_sets' example.data_set.data_set_name %}">
+                                {{ example.data_set.data_set_name }}
+                            </a>
+                        </p>
+                        <pre class="border"><code>{{ example.example }}</code></pre>
+                        <p>Input:</p>
+                        <div class="pricing-table-image">
+                            <img src="{{ MEDIA_URL }}{{ example.example_input }}" alt="No image for input."/>
+                        </div>
+                        <p>Output:</p>
+                        <div class="pricing-table-image">
+                            <img src="{{ MEDIA_URL }}{{ example.example_output }}" alt="No image for output."/>
+                        </div>
+                        {% endfor %}
+                        <div class="card-divider card-divider-xl"></div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-right">© 2018 Copyright &nbsp &nbsp</div>
+    </div>
+</div>
+{% endblock %}
+
+{% block js %}
+<script src="{% static 'Knowledge_Base/content_assets/lib/perfect-scrollbar/js/perfect-scrollbar.js' %}"
+        type="text/javascript"></script>
+<script src="{% static 'Knowledge_Base/content_assets/js/app.js' %}" type="text/javascript"></script>
+<script type="text/javascript">
+      $(document).ready(function(){
+      	//-initialize the javascript
+      	App.init();
+      });
+</script>
+{% endblock %}
