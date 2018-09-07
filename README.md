@@ -8,8 +8,6 @@ Instructions:
 4. Install MySQL 5.7.23 from https://dev.mysql.com/downloads/installer/
    and establish a database called 'r_data_wrangling_packages_knowledge_base' or any other name.
 5. Open the 'settings.py' with the same name as the root dictionary and change the parameters for the database:
-   # Database
-   # https://docs.djangoproject.com/en/2.0/ref/settings/#databases
    DATABASES = {
      'default': {
         'ENGINE': 'django.db.backends.mysql',
