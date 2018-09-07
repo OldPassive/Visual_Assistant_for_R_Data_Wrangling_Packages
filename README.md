@@ -1,5 +1,5 @@
 # Visual_Assistant_for_R_Data_Wrangling_Packages
-A knowledge base of R data wrangling packages.
+A knowledge base of R data wrangling packages based on MySQL and Django.
 
 Instructions:
 1. Download all the files in the dictionary.
